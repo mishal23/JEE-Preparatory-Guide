@@ -103,7 +103,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 5px;
   bottom: 0px;	 
-  position: fixed;
+  position: relative;
   text-align: center;
   font-family: cursive, sans-serif;
 }
