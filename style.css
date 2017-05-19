@@ -101,8 +101,8 @@ footer {
   color: gray;
   line-height: 20px;
   padding-top: 10px;
-  padding-bottom: 5px;
-  position: relative;
+  padding-bottom: 0px;
+  position: fixed;
   text-align: center;
   font-family: cursive, sans-serif;
 }
