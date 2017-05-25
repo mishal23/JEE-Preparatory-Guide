@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openSub(evt, subName) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -8,16 +8,16 @@ function openCity(evt, cityName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(subName).style.display = "block";
     evt.currentTarget.className += " active";
 }
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
 
-function openCity1(cityName) {
+function openSubject1(cityName) {
     var i;
-    var x = document.getElementsByClassName("city");
+    var x = document.getElementsByClassName("sub");
     for (i = 0; i < x.length; i++) {
        x[i].style.display = "none";  
     }

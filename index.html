@@ -14,23 +14,23 @@
 		<h1>JEE | PREPARATORY GUIDE </h1>
 	</header>
 	<div class="w3-bar w3-black">
-  		<button class="w3-bar-item w3-button" onclick="openCity1('Physics')">Physics</button>
-  		<button class="w3-bar-item w3-button" onclick="openCity1('Chemistry')">Chemistry</button>
- 		<button class="w3-bar-item w3-button" onclick="openCity1('Maths')">Maths</button>
+  		<button class="w3-bar-item w3-button" onclick="openSubject1('Physics')">Physics</button>
+  		<button class="w3-bar-item w3-button" onclick="openSubject1('Chemistry')">Chemistry</button>
+ 		  <button class="w3-bar-item w3-button" onclick="openSubject1('Maths')">Maths</button>
 	</div>
 
-	<div id="Physics" class="w3-container city">
+	<div id="Physics" class="w3-container sub">
 		<h2>Physics</h2>
   			<p>
   				The section covered here contains a few good-books for practice for Physics recommended & used by most of the aspirants to crack the questions for JEE Mains/Advanced.
   			</p>
 
 			<div class="tab">
-  				<button class="tablinks" onclick="openCity(event, 'Mechanics')" id="defaultOpen">Mechanics</button>
-  				<button class="tablinks" onclick="openCity(event, 'thermo')">ThermoDynamics</button>
-  				<button class="tablinks" onclick="openCity(event, 'E&M')">Electricity & Magnetism</button>
-  				<button class="tablinks" onclick="openCity(event, 'omp')">Optics & Modern Physics</button>
-  				<button class="tablinks" onclick="openCity(event, 'sop')">Some more references..</button>
+  				<button class="tablinks" onclick="openSub(event, 'Mechanics')" id="defaultOpen">Mechanics</button>
+  				<button class="tablinks" onclick="openSub(event, 'thermo')">ThermoDynamics</button>
+  				<button class="tablinks" onclick="openSub(event, 'E&M')">Electricity & Magnetism</button>
+  				<button class="tablinks" onclick="openSub(event, 'omp')">Optics & Modern Physics</button>
+  				<button class="tablinks" onclick="openSub(event, 'sop')">Some more references..</button>
 			</div>
 			
 			<div id="sop" class="tabcontent">
@@ -40,7 +40,7 @@
 					
 					<a href="http://www.amazon.in/Chapterwise-Topicwise-Solved-2016-1979-Physics/dp/9385980750" target="_blank" ><img src="img/phy.jpg" alt="Previous JEE Physics" width="260px" height="329px"></a> 
 					
-					<a href="http://www.amazon.in/Concepts-Physics-Set-2-Verma/dp/B00BD679PO" target="_blank" ><img src="img/hcv.jpg" alt="HC Verma" width="625px" height="404px"></a> 
+					<a href="http://www.amazon.in/Concepts-Physics-Set-2-Verma/dp/B00BD679PO" target="_blank" ><img src="img/hcv.jpg" alt="HC Verma" width="550px" height="350px"></a> 
 
 			</div>
 			<div id="Mechanics" class="tabcontent">
@@ -79,14 +79,14 @@
 
 	</div>
 
-	<div id="Chemistry" class="w3-container city" style="display:none">
+	<div id="Chemistry" class="w3-container sub" style="display: none;">
   		<h2>Chemistry</h2>
   			<p>The various sections here list the most-commonly used books for practicing for competitive exams like JEE Mains/Advanced/AIPMT</p>
 			<div class="tab">
-  				<button class="tablinks" onclick="openCity(event, 'Physical')" id="defaultOpen">Physical</button>
-  				<button class="tablinks" onclick="openCity(event, 'Organic')">Organic</button>
-  				<button class="tablinks" onclick="openCity(event, 'Inorganic')">Inorganic</button>
-  				<button class="tablinks" onclick="openCity(event, 'soc')">Some more references..</button>
+  				<button class="tablinks" onclick="openSub(event, 'Physical')" id="defaultOpen">Physical</button>
+  				<button class="tablinks" onclick="openSub(event, 'Organic')">Organic</button>
+  				<button class="tablinks" onclick="openSub(event, 'Inorganic')">Inorganic</button>
+  				<button class="tablinks" onclick="openSub(event, 'soc')">Some more references..</button>
 			</div>
 			
 			<div id="soc" class="tabcontent">
@@ -118,17 +118,17 @@
 			</div>
 	</div>
 
-	<div id="Maths" class="w3-container city" style="display:none">
+	<div id="Maths" class="w3-container sub" style="display:none">
   		<h2>Maths</h2>
   			<p>The various sections covered here are the major topics included in JEE-Syllabus and the books majorly used for preparation.</p>
 
   			<div class="tab">
-  				<button class="tablinks" onclick="openCity(event, 'Calculus')" id="defaultOpen">Calculus</button>
-  				<button class="tablinks" onclick="openCity(event, 'Algebra')">Algebra</button>
-  				<button class="tablinks" onclick="openCity(event, 'trigo')">Trigonometry</button>
-  				<button class="tablinks" onclick="openCity(event, 'Coordinate')">Coordinate</button>
-  				<button class="tablinks" onclick="openCity(event, 'vg')">Vector & 3D Geometry</button>
-  				<button class="tablinks" onclick="openCity(event, 'som')">Some more references..</button>
+  				<button class="tablinks" onclick="openSub(event, 'Calculus')" id="defaultOpen">Calculus</button>
+  				<button class="tablinks" onclick="openSub(event, 'Algebra')">Algebra</button>
+  				<button class="tablinks" onclick="openSub(event, 'trigo')">Trigonometry</button>
+  				<button class="tablinks" onclick="openSub(event, 'Coordinate')">Coordinate</button>
+  				<button class="tablinks" onclick="openSub(event, 'vg')">Vector & 3D Geometry</button>
+  				<button class="tablinks" onclick="openSub(event, 'som')">Some more references..</button>
 			</div>
 			
 			<div id="som" class="tabcontent">
